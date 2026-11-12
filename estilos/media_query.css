@@ -1,0 +1,15 @@
+@media (max-width:900px){
+  .page{grid-template-columns:1fr}
+  .id{padding:28px}
+  .tl{grid-template-columns:1fr}
+  .sec{grid-template-columns:1fr}
+  .dot{grid-row:auto}
+  .time{position:static;justify-self:start}
+}
+
+
+@media print{
+  @page{size:A4 landscape;margin:0}
+  body{padding:0;background:#fff}
+  .page{max-width:none;border-radius:0;box-shadow:none;grid-template-columns:300px 1fr;-webkit-print-color-adjust:exact;print-color-adjust:exact;zoom:.82}
+}
