@@ -39,7 +39,6 @@ h1,h2,h3{font-family:Sora,Inter,sans-serif;margin:0}
 .dot{grid-row:span 3;width:44px;height:44px;border-radius:50%;display:grid;place-items:center;color:#fff;font:800 16px Sora,sans-serif}
 .s1 .dot{background:var(--blue)} .s2 .dot{background:#4B4BFF} .s3 .dot{background:var(--violet)}
 .sec h2{font-size:18px;line-height:1.25}
-.time{position:absolute;top:16px;right:18px;font-size:12px;font-weight:600;color:var(--muted);background:var(--bg);border-radius:999px;padding:3px 10px}
 .sec p{margin:0;color:var(--muted)}
 .sec > h2{padding-right:70px}
 
