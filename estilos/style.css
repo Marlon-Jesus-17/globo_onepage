@@ -23,10 +23,10 @@ h1,h2,h3{font-family:Sora,Inter,sans-serif;margin:0}
 
 /* Painel de identidade */
 .id{background:var(--grad);color:#fff;padding:36px 30px;position:relative;overflow:hidden;display:flex;flex-direction:column;gap:20px}
-.id::before{content:"SN";position:absolute;right:-30px;bottom:-60px;font:800 280px/1 Sora,sans-serif;color:rgba(255,255,255,.1);pointer-events:none}
+.id::before{content:"MJ";position:absolute;right:-30px;bottom:-60px;font:800 280px/1 Sora,sans-serif;color:rgba(255,255,255,.1);pointer-events:none}
 .badge{align-self:flex-start;border:1.5px solid rgba(255,255,255,.8);border-radius:999px;padding:5px 14px;font-size:12px;font-weight:600;letter-spacing:.04em}
 .id h1{font-size:38px;line-height:1.05;font-weight:800}
-.role{font-size:16px;opacity:.92;margin:0}
+.role{font-size:16px;opacity:.92;margin:0;}
 .facts{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:10px;position:relative;z-index:1}
 .facts li{background:rgba(255,255,255,.16);border-radius:14px;padding:10px 14px;font-size:14px;backdrop-filter:blur(4px)}
 .facts b{display:block;font-size:12px;opacity:.8;font-weight:500}
